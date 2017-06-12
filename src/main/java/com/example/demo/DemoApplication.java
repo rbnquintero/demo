@@ -15,6 +15,7 @@ public class DemoApplication {
 	
 	@RequestMapping("/")
 	public String getMain() {
+		System.out.println("I just got called!");
 		return "Hello World!";
 	}
 }
